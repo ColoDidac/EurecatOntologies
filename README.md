@@ -10,3 +10,6 @@ The scope of the SIM4NEXUS ontology is to represent the information from multipl
 
 ## [GLOMICAVE](https://w3id.org/def/glomicave)
 The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites studies. Also, the ontoloy has been also linked with referent models in relation to provide observation and measurement ontology pattern. Finally, the proposed semantic model has been also linked with referent repositories for representing studies and assays: 1. Metabolites repository; 2. Metabolomic workbench; 3. GEO Repository
+
+## [WSIS](https://w3id.org/def/wsis/)
+An ontology as a catalyst for Water Smart Industrial Symbiosis (WSIS), in which water/wastewater plays a key role within a dynamic socio-economic and business oriented industrial ecosystem.
