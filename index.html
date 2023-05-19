@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>EurecatOntologies</title>
+    <link rel="stylesheet" href="vocab/themes/blue/style.css" type="text/css" media="print, projection, screen" />
+    <script src="vocab/js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="vocab/js/bootstrap.js"></script>
+    <script type="text/javascript" id="js">
+	    $(document).ready(function() 
+		    { 
+		    	$("#tablesorter-demo").tablesorter(); 
+		    	$("#tablesorter-demo").stickyTableHeaders(); 
+		    	$('[data-toggle="tooltip"]').tooltip(); 
+		    } 
+	    ); 
+    </script>
+
+    <!-- Le styles -->
+    <link href="vocab/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="vocab/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+  </head>
+
+  <body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Vocabularies</a></li>
+        <li><a href="report.html">Vocabulary report</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+ </div>
+    <div class="container">
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>EurecatOntologies landing page</h1>
+        <p class="lead">Here you can find the list of vocabularies that have been found on EurecatOntologies.</p>
+      </div>
+      <hr>
+<div class="row"> 
+</div>
+<br>
+<table id="tablesorter-demo" class="tablesorter table table-hover table-responsive">
+<thead>
+<tr>
+<th class="col-md-2">Ontology</th>
+<th class="col-md-1">Serialization</th>
+<th class="col-md-2">License</th>
+<th class="col-md-1">Language</th>
+<th class="col-md-6">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr id="tr1">
+<td><a href = "https://w3id.org/def/wsis/" target="_blank">Water Smart Industrial Symbiosis (WSIS) Ontology</a> </td><td>
+<a href="ontologies/wisis.ttl"><span class="label label-primary">TURTLE</span></a>
+</td>
+<td><a href="https://opensource.org/licenses/ISC" target="_blank"> <span class="label label-success">https://opensource.org/licens...</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td>
+<p id="collapse1" data-toggle="collapse" >
+An ontology as a catalyst for Water Smart Industrial Symbiosis (WSIS), in which water/wastewater plays a key role within a dynamic socio-economic ... <a class="more1">See more</a>
+</p>
+<script>
+$('#collapse1').click(function () {
+if($('a').hasClass('more1'))
+{
+$('#collapse1').html('An ontology as a catalyst for Water Smart Industrial Symbiosis (WSIS), in which water/wastewater plays a key role within a dynamic socio-economic and business oriented industrial ecosystem  <a class="less1">See less<a>'); 
+}
+else
+{      
+$('#collapse1').html('An ontology as a catalyst for Water Smart Industrial Symbiosis (WSIS), in which water/wastewater plays a key role within a dynamic socio-economic ...  <a  class="more1">See more</a>'); 
+}
+}); 
+</script>
+</td>
+</tr><tr id="tr2">
+<td><a href = "/home/ahmad/repos/prevclone-s1Ey/WSIS/wsis.owl" target="_blank">Undefined</a> </td><td>
+</td>
+<td><span class="label label-default">Undefined</span></td>
+<td></td>
+<td>
+</td>
+</tr><tr id="tr3">
+<td><a href = "https://w3id.org/def/isa-glomicave/" target="_blank">ISA Abstract Model extended to Metabolites, Gnomic and Metabolonic studies </a> </td><td>
+<a href="ontologies/isa-glomicave 2.ttl"><span class="label label-primary">TURTLE</span></a>
+</td>
+<td><a href="https://opensource.org/licenses/ISC" target="_blank"> <span class="label label-success">https://opensource.org/licens...</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td>
+<p id="collapse3" data-toggle="collapse" >
+The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites ... <a class="more3">See more</a>
+</p>
+<script>
+$('#collapse3').click(function () {
+if($('a').hasClass('more3'))
+{
+$('#collapse3').html('The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites studies. Also, the ontoloy has been also linked with referent models in relation to provide observation and measurement ontology pattern. Finally, the proposed semantic model has been also linked with referent repositories for representing studies and assays: 1. Metabolites repository; 2. Array Express; 3. GEO Repository  <a class="less3">See less<a>'); 
+}
+else
+{      
+$('#collapse3').html('The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites ...  <a  class="more3">See more</a>'); 
+}
+}); 
+</script>
+</td>
+</tr><tr id="tr4">
+<td><a href = "https://w3id.org/def/isa-glomicave/" target="_blank">ISA Abstract Model extended to Metabolites, Gnomic and Metabolonic studies </a> </td><td>
+<a href="ontologies/isa-glomicave.ttl"><span class="label label-primary">TURTLE</span></a>
+</td>
+<td><a href="https://opensource.org/licenses/ISC" target="_blank"> <span class="label label-success">https://opensource.org/licens...</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td>
+<p id="collapse4" data-toggle="collapse" >
+The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites ... <a class="more4">See more</a>
+</p>
+<script>
+$('#collapse4').click(function () {
+if($('a').hasClass('more4'))
+{
+$('#collapse4').html('The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites studies. Also, the ontoloy has been also linked with referent models in relation to provide observation and measurement ontology pattern. Finally, the proposed semantic model has been also linked with referent repositories for representing studies and assays: 1. Metabolites repository; 2. Array Express; 3. GEO Repository  <a class="less4">See less<a>'); 
+}
+else
+{      
+$('#collapse4').html('The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites ...  <a  class="more4">See more</a>'); 
+}
+}); 
+</script>
+</td>
+</tr><tr id="tr5">
+<td><a href = "https://seriousgame.sim4nexus.eu/ontology#" target="_blank">Water Nexus Ontology to support generation of policies</a> </td><td>
+<a href="ontologies/water-nexus.ttl"><span class="label label-primary">TURTLE</span></a>
+</td>
+<td><a href="https://opensource.org/licenses/MIT" target="_blank"> <span class="label label-success">https://opensource.org/licens...</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td>
+<p id="collapse5" data-toggle="collapse" >
+
+                                              The development of the SIM4NEXUS ontology is motivated by the need to integrate information from ... <a class="more5">See more</a>
+</p>
+<script>
+$('#collapse5').click(function () {
+if($('a').hasClass('more5'))
+{
+$('#collapse5').html('<br>                                              The development of the SIM4NEXUS ontology is motivated by the need to integrate information from different data sources (systems, IoT, static information) referring water, energy, land use, climate change and their economics of different agencies and uses-cases around EU. The proposed ontology should be able to harmonise the high variability of terms referring to the same topic or domain (in ontology language called “Thing”). The ontology will provide a common data understanding of this information based on the context (their use). Moreover, semantic enriched data represenation should be aligned with current standards from the integrated domains.<br>                                              Considering these aspects, the SIM4NEXUS ontology main purpose is to provide a complete ontology (or semantic model) about all knowledge and decision-making processes around water, enery, land, climate and food production inclduding economics.<br>                                              The scope of the SIM4NEXUS ontology is to represent the information from multiple systems that are observing an hetereogeneous number of water, land, energy and climate change variables. This variables will conform some policy evaluation scenarios. The type and the number of these variables will vary from one scenatio to others. So, one of the main aspects of the ontology is to make understandable the information collected from the scenarios and to harmonise it under a common model. For that, the ontology needs to follow standard definitions and terms adoptions from representative organizations (WMO, OGC, INSPIRE, W3C, etc). Moreover, the ontology needs to support the scenario definition and the human-interaction with the game in order to facilitate the evaluation of different policies and the subsequent policy recomendation as an output of the scenario simulation.<br>                                              The following image offers an overview of the implemented model:<br>                                              ![](img/schema.png)  <a class="less5">See less<a>'); 
+}
+else
+{      
+$('#collapse5').html('<br>                                              The development of the SIM4NEXUS ontology is motivated by the need to integrate information from ...  <a  class="more5">See more</a>'); 
+}
+}); 
+</script>
+</td>
+</tr><tr id="tr6">
+<td><a href = "https://w3id.org/def/pathocert/" target="_blank">Incidence, Emergency Response and Risk Assessment model</a> </td><td>
+<a href="ontologies/pathocert_ontology.ttl"><span class="label label-primary">TURTLE</span></a>
+</td>
+<td><a href="https://opensource.org/licenses/ISC" target="_blank"> <span class="label label-success">https://opensource.org/licens...</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td>
+<p id="collapse6" data-toggle="collapse" >
+A SAREF4WATR extenstion to model incidence, emergency response and Risk Assessment modelling. The main intention of the ontology is to interlink ... <a class="more6">See more</a>
+</p>
+<script>
+$('#collapse6').click(function () {
+if($('a').hasClass('more6'))
+{
+$('#collapse6').html('A SAREF4WATR extenstion to model incidence, emergency response and Risk Assessment modelling. The main intention of the ontology is to interlink water management information with water quality and risk assessment. This ontology has been elaborated under the PATHOCERT H2020 project.  <a class="less6">See less<a>'); 
+}
+else
+{      
+$('#collapse6').html('A SAREF4WATR extenstion to model incidence, emergency response and Risk Assessment modelling. The main intention of the ontology is to interlink ...  <a  class="more6">See more</a>'); 
+}
+}); 
+</script>
+</td>
+</tr></tbody></table>
+<hr>
+      <footer class="footer">
+           <footer class="footer">
+            <div class="row">
+    	<div class="col-md-10">
+    		Page created with  <a href = "https://github.com/dgarijo/vocabLite" target="_blank">VocabLite</a> (<a href="http://oeg-upm.net/">Ontology Engineering Group</a>)
+	        <br>
+    	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
+ 	        <br>
+	        Latest revision May, 2023
+        </div>
+		<div class="col-md-2">
+			<a href="https://github.com/dgarijo/vocabLite"><img width="140px"src="vocab/logoLite.png"></img></a>
+		</div>
+      </footer>      </div>
+      </footer>
+    </div> <!-- /container -->
