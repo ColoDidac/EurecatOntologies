@@ -8,8 +8,5 @@ The development of the SIM4NEXUS ontology is motivated by the need to integrate 
 Considering these aspects, the SIM4NEXUS ontology main purpose is to provide a complete ontology (or semantic model) about all knowledge and decision-making processes around water, enery, land, climate and food production inclduding economics.
 The scope of the SIM4NEXUS ontology is to represent the information from multiple systems that are observing an hetereogeneous number of water, land, energy and climate change variables. This variables will conform some policy evaluation scenarios. The type and the number of these variables will vary from one scenatio to others. So, one of the main aspects of the ontology is to make understandable the information collected from the scenarios and to harmonise it under a common model. For that, the ontology needs to follow standard definitions and terms adoptions from representative organizations (WMO, OGC, INSPIRE, W3C, etc).
 
-## [GLOMICAVE](https://w3id.org/def/glomicave)
-The proposed ontology not only focused on the abstract reference model but also, served as a extention to different metabolonic, gnomic and metabolites studies. Also, the ontoloy has been also linked with referent models in relation to provide observation and measurement ontology pattern. Finally, the proposed semantic model has been also linked with referent repositories for representing studies and assays: 1. Metabolites repository; 2. Metabolomic workbench; 3. GEO Repository
-
 ## [WSIS](https://w3id.org/def/wsis/)
 An ontology as a catalyst for Water Smart Industrial Symbiosis (WSIS), in which water/wastewater plays a key role within a dynamic socio-economic and business oriented industrial ecosystem.
