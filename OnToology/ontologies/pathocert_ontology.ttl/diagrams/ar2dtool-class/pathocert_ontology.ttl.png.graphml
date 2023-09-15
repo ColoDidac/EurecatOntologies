@@ -283,24 +283,24 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_xsd:dateTime">
+      <node id="nid_s4watr:WaterFlowProperty">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="240.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">xsd:dateTime</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">s4watr:WaterFlowProperty</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom11" source="nid_NULL" target="nid_xsd:dateTime">
+    <edge id="eid_owl:someValuesFrom11" source="nid_NULL" target="nid_s4watr:WaterFlowProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -329,24 +329,24 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_s4watr:WaterFlowProperty">
+      <node id="nid_xsd:dateTime">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="240.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">s4watr:WaterFlowProperty</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">xsd:dateTime</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom13" source="nid_NULL" target="nid_s4watr:WaterFlowProperty">
+    <edge id="eid_owl:allValuesFrom13" source="nid_NULL" target="nid_xsd:dateTime">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -444,29 +444,6 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_saref:controlsProperty">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="220.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">saref:controlsProperty</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty18" source="nid_NULL" target="nid_saref:controlsProperty">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_s4watr:WaterUse">
          <data key="d0">
             <y:ShapeNode>
@@ -479,23 +456,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom19" source="nid_NULL" target="nid_s4watr:WaterUse">
+    <edge id="eid_owl:someValuesFrom18" source="nid_NULL" target="nid_s4watr:WaterUse">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:onClass20" source="nid_NULL" target="nid_saref:Property">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onClass</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -513,7 +479,41 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty21" source="nid_NULL" target="nid_saref:isMeasuredByDevice">
+    <edge id="eid_owl:onProperty19" source="nid_NULL" target="nid_saref:isMeasuredByDevice">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:onClass20" source="nid_NULL" target="nid_saref:Property">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onClass</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_saref:controlsProperty">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="220.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">saref:controlsProperty</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:onProperty21" source="nid_NULL" target="nid_saref:controlsProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -719,29 +719,6 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_s4watr:WaterProperty">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">s4watr:WaterProperty</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:allValuesFrom31" source="nid_NULL" target="nid_s4watr:WaterProperty">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_s4watr:hasHardwareVersion">
          <data key="d0">
             <y:ShapeNode>
@@ -754,12 +731,35 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty32" source="nid_NULL" target="nid_s4watr:hasHardwareVersion">
+    <edge id="eid_owl:onProperty31" source="nid_NULL" target="nid_s4watr:hasHardwareVersion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_s4watr:WaterProperty">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">s4watr:WaterProperty</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:allValuesFrom32" source="nid_NULL" target="nid_s4watr:WaterProperty">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
