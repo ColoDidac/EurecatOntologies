@@ -25,8 +25,8 @@ node [shape = rectangle, color="orange"]; "s4n:Animal" "saref:FeatureOfInterest"
 	"NULL" -> "s4city:KeyPerformanceIndicator" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "s4city:isKPIOf" [ label = "owl:onProperty" ];
 	"NULL" -> "geosp:sfContains" [ label = "owl:onProperty" ];
-	"NULL" -> "saref:UnitOfMeasure" [ label = "owl:onClass" ];
 	"NULL" -> "saref:Property" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "saref:UnitOfMeasure" [ label = "owl:onClass" ];
 	"NULL" -> "saref:hasValue" [ label = "owl:onProperty" ];
 	"NULL" -> "geosp:sfWithin" [ label = "owl:onProperty" ];
 	"NULL" -> "saref:UnitOfMeasure" [ label = "owl:allValuesFrom" ];
