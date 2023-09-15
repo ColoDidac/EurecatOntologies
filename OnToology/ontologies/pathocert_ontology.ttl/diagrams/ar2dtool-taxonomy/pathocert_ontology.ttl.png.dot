@@ -1,0 +1,55 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "s4watr:MicrobialProperty" "pathocert:WaterQualityMonitoringTool" "pathocert:Disease" "time:Instant" "pathocert:InteractionAffordance" "saref:FeatureOfInterest" "s4watr:WaterDevice" "s4watr:Valve" "pathocert:ParasitesProperty" "pathocert:BacteriaProperty" "pathocert:ProtozoanProperty" "s4watr:ChemicalProperty" "pathocert:VectorBorne" "pathocert:BiologicalProperty" "saref:Meter" "ngsild:Property" "saref:Device" "s4watr:WaterInfrastructure" "pathocert:PFASProperty" "ngsild:Entity" "pathocert:Air" "s4watr:Pump" "geosp:Geometry" "pathocert:WaterQualityProperty" "s4watr:WaterMeter" "pathocert:EventAffordance" "pathocert:VirusProperty" "pathocert:PharmatheuticalProperty" "s4watr:WaterFlowProperty" "sf:Polygon" "sf:Point" "pathocert:ControlActions" "s4syst:System" "pathocert:NotificationAffordance" "geosp:SpatialObject" "s4watr:WaterAsset" "time:Interval" "saref:Actuator" "s4watr:Water" "time:TemporalEntity" "pathocert:WaterBorne" "geosp:Feature" "pathocert:WaterQualitySensor" "pathocert:AirBorne" "s4watr:WaterMeterProperty" "s4watr:AcceptabilityProperty" "saref:Sensor" "s4watr:WaterProperty" "saref:Property" ; /*classes style*/
+	"sf:Polygon" -> "geosp:Geometry" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterDevice" -> "saref:Device" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterDevice" -> "s4watr:WaterAsset" [ label = "rdfs:subClassOf" ];
+	"saref:Property" -> "ngsild:Property" [ label = "rdfs:subClassOf" ];
+	"saref:Meter" -> "saref:Sensor" [ label = "rdfs:subClassOf" ];
+	"time:Instant" -> "time:TemporalEntity" [ label = "rdfs:subClassOf" ];
+	"saref:Device" -> "ngsild:Entity" [ label = "rdfs:subClassOf" ];
+	"pathocert:VectorBorne" -> "pathocert:Disease" [ label = "rdfs:subClassOf" ];
+	"pathocert:PharmatheuticalProperty" -> "s4watr:ChemicalProperty" [ label = "rdfs:subClassOf" ];
+	"saref:Actuator" -> "saref:Device" [ label = "rdfs:subClassOf" ];
+	"pathocert:BacteriaProperty" -> "s4watr:BiologicalProperty" [ label = "rdfs:subClassOf" ];
+	"geosp:Feature" -> "geosp:SpatialObject" [ label = "rdfs:subClassOf" ];
+	"s4watr:Water" -> "saref:FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"pathocert:WaterQualityMonitoringTool" -> "s4watr:WaterDevice" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterMeterProperty" -> "saref:Property" [ label = "rdfs:subClassOf" ];
+	"sf:Point" -> "geosp:Geometry" [ label = "rdfs:subClassOf" ];
+	"s4watr:Pump" -> "saref:Actuator" [ label = "rdfs:subClassOf" ];
+	"s4watr:Pump" -> "s4watr:WaterDevice" [ label = "rdfs:subClassOf" ];
+	"pathocert:VirusProperty" -> "s4watr:BiologicalProperty" [ label = "rdfs:subClassOf" ];
+	"s4watr:ChemicalProperty" -> "pathocert:WaterQualityProperty" [ label = "rdfs:subClassOf" ];
+	"pathocert:Air" -> "saref:FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"pathocert:BiologicalProperty" -> "pathocert:WaterQualityProperty" [ label = "rdfs:subClassOf" ];
+	"s4watr:MicrobialProperty" -> "pathocert:WaterQualityProperty" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterMeter" -> "saref:Meter" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterMeter" -> "s4watr:WaterDevice" [ label = "rdfs:subClassOf" ];
+	"pathocert:EventAffordance" -> "pathocert:InteractionAffordance" [ label = "rdfs:subClassOf" ];
+	"pathocert:WaterBorne" -> "pathocert:Disease" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterAsset" -> "s4syst:System" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterAsset" -> "saref:FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterAsset" -> "geosp:Feature" [ label = "rdfs:subClassOf" ];
+	"pathocert:WaterQualitySensor" -> "saref:Sensor" [ label = "rdfs:subClassOf" ];
+	"s4watr:AcceptabilityProperty" -> "pathocert:WaterQualityProperty" [ label = "rdfs:subClassOf" ];
+	"pathocert:ParasitesProperty" -> "s4watr:BiologicalProperty" [ label = "rdfs:subClassOf" ];
+	"geosp:Geometry" -> "geosp:SpatialObject" [ label = "rdfs:subClassOf" ];
+	"pathocert:ProtozoanProperty" -> "s4watr:BiologicalProperty" [ label = "rdfs:subClassOf" ];
+	"time:Interval" -> "time:TemporalEntity" [ label = "rdfs:subClassOf" ];
+	"pathocert:AirBorne" -> "pathocert:Disease" [ label = "rdfs:subClassOf" ];
+	"pathocert:NotificationAffordance" -> "pathocert:InteractionAffordance" [ label = "rdfs:subClassOf" ];
+	"pathocert:ControlActions" -> "pathocert:InteractionAffordance" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterInfrastructure" -> "saref:FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterInfrastructure" -> "s4syst:System" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterInfrastructure" -> "geosp:Feature" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterProperty" -> "saref:Property" [ label = "rdfs:subClassOf" ];
+	"pathocert:PFASProperty" -> "s4watr:MicrobialProperty" [ label = "rdfs:subClassOf" ];
+	"saref:Sensor" -> "saref:Device" [ label = "rdfs:subClassOf" ];
+	"s4watr:Valve" -> "saref:Actuator" [ label = "rdfs:subClassOf" ];
+	"s4watr:Valve" -> "s4watr:WaterDevice" [ label = "rdfs:subClassOf" ];
+	"s4watr:WaterFlowProperty" -> "saref:Property" [ label = "rdfs:subClassOf" ];
+	"pathocert:WaterQualityProperty" -> "saref:Property" [ label = "rdfs:subClassOf" ];
+
+}
