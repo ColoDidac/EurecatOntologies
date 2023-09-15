@@ -1,0 +1,53 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "saref:Measurement" "saref:UnitOfMeasure" "saref:FeatureOfInterest" "saref:Device" "s4watr:WaterFlowProperty" "pathocert:ModellingTools" "saref:Actuator" "s4watr:Water" "time:TemporalEntity" "pathocert:DigitalTools" "s4watr:WaterMeterProperty" "saref:Sensor" "s4watr:WaterProperty" "saref:Property" ; /*classes style*/
+	"saref:Actuator" -> "saref:Sensor" [ label = "owl:disjointWith" ];
+	"pathocert:ModellingTools" -> "saref:Device" [ label = "rdf:subClassOf" ];
+	"NULL" -> "saref:hasMeasurement" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:hasFirmwareVersion" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:isControlledByDevice" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:isDesignedFor" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:WaterQualityProperty" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "saref:Device" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "xsd:float" [ label = "owl:onDataRange" ];
+	"NULL" -> "saref:relatesToMeasurement" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:hasFabricationNumber" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:isMeasuredIn" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:WaterFlowProperty" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "saref:Property" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "xsd:dateTime" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "saref:UnitOfMeasure" [ label = "owl:onClass" ];
+	"NULL" -> "s4watr:Air" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "saref:measuresProperty" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:isMeasuredByDevice" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:WaterUse" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "saref:Property" [ label = "owl:onClass" ];
+	"NULL" -> "saref:controlsProperty" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:WaterMeterProperty" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "s4watr:hasVersion" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:relatesToProperty" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:hasProperty" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:hasTimestamp" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:makesMeasurement" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:isIntendedFor" [ label = "owl:onProperty" ];
+	"NULL" -> "saref:UnitOfMeasure" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "saref:hasValue" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:hasHardwareVersion" [ label = "owl:onProperty" ];
+	"NULL" -> "s4watr:WaterProperty" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "s4watr:Water" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "saref:Measurement" [ label = "owl:allValuesFrom" ];
+	"pathocert:DigitalTools" -> "saref:Device" [ label = "rdf:subClassOf" ];
+	"pathocert:" -> "https://w3id.org/def/pathocert/v0.0.1/" [ label = "owl:versionIRI" ];
+	"pathocert:" -> "https://pathocert.eu/" [ label = "dcterms:publisher" ];
+	"pathocert:" -> "https://github.com/aolite/PATHOCERTOntology" [ label = "dcterms:source" ];
+	"pathocert:" -> "https://opensource.org/licenses/ISC" [ label = "dcterms:license" ];
+	"saref:FeatureOfInterest" -> "saref:Device" [ label = "s4watr:featureIsControlledByDevice" ];
+	"saref:Measurement" -> "time:TemporalEntity" [ label = "s4watr:hasPhenomenonTime" ];
+	"owl:Thing" -> "rdfs:Literal" [ label = "s4watr:hasFirmwareVersion" ];
+	"owl:Thing" -> "rdfs:Literal" [ label = "s4watr:hasHardwareVersion" ];
+	"saref:FeatureOfInterest" -> "saref:Device" [ label = "s4watr:featureIsMeasuredByDevice" ];
+	"owl:Thing" -> "rdfs:Literal" [ label = "s4watr:hasVersion" ];
+	"owl:Thing" -> "rdfs:Literal" [ label = "s4watr:hasFabricationNumber" ];
+
+}

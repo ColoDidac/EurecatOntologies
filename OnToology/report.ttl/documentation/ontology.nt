@@ -1,0 +1,153 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#detectedProblem
+<http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#entrySubject
+<http://vocab.linkeddata.es/ontology/report#entrySubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#hasEntry
+<http://vocab.linkeddata.es/ontology/report#hasEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#isEntryOfReport
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#vocabularyStatus
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsError
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsOK
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#numberVocabsWarning
+<http://vocab.linkeddata.es/ontology/report#numberVocabsWarning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/ontology/report#reportDate
+<http://vocab.linkeddata.es/ontology/report#reportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#Entry
+<http://vocab.linkeddata.es/ontology/report#Entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/ontology/report#Report
+<http://vocab.linkeddata.es/ontology/report#Report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/ontology/report#Warning
+<http://vocab.linkeddata.es/ontology/report#Warning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab /home/ahmad/repos/prevclone-s1Ey/WSIS/wsis.owl" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-S1EYWSISWSIS.OWL> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab https://w3id.org/def/isa-glomicave/" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_ISA-GLOMICAVE_> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#success" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab https://w3id.org/def/pathocert/" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_PATHOCERT_> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#success" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab https://w3id.org/def/wsis/" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_WSIS_> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#success" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND
+<http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Warning> .
+<http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> <http://www.w3.org/2000/01/rdf-schema#label> "Warning: A license was not found for vocabulary" .
+# 
+# http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Warning> .
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> <http://www.w3.org/2000/01/rdf-schema#label> "Warning: title or description missing from vocabulary" .
+# 
+# http://vocab.linkeddata.es/ontology/report#REPORT1684493452845
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Report> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#numberVocabsError> "0" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#numberVocabsOK> "5" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning> "5" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#reportDate> "Fri May 19 12:50:52 CEST 2023"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://www.w3.org/2000/01/rdf-schema#label> "Report created on Fri May 19 12:50:52 CEST 2023" .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> .
+<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> <http://vocab.linkeddata.es/ontology/report#hasEntry> <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.linkeddata.es/ontology/report#Entry> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> <http://vocab.linkeddata.es/ontology/report#detectedProblem> <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> <http://vocab.linkeddata.es/ontology/report#entrySubject> <http://vocab.linkeddata.es/ontology/report#https:/_SERIOUSGAME.SIM4NEXUS.EU_ONTOLOGY%23> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> <http://vocab.linkeddata.es/ontology/report#isEntryOfReport> <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#success" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> <http://vocab.linkeddata.es/ontology/report#vocabularyStatus> "http://vocab.linkeddata.es/ontology/report#warning" .
+# 
+# http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%2523
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%2523> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%2523> <http://www.w3.org/2000/01/rdf-schema#label> "Entry for vocab https://seriousgame.sim4nexus.eu/ontology#" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

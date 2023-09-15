@@ -1,0 +1,210 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-S1EYWSISWSIS.OWL"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1684493452845"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab /home/ahmad/repos/prevclone-s1Ey/WSIS/wsis.owl"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#https:/_SERIOUSGAME.SIM4NEXUS.EU_ONTOLOGY%23"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1684493452845"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#success"
+  }, {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%2523",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab https://seriousgame.sim4nexus.eu/ontology#"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_ISA-GLOMICAVE_"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1684493452845"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#success"
+  }, {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab https://w3id.org/def/isa-glomicave/"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_PATHOCERT_"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1684493452845"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#success"
+  }, {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab https://w3id.org/def/pathocert/"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#detectedProblem" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#entrySubject" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_WSIS_"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#isEntryOfReport" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1684493452845"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#vocabularyStatus" : [ {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#success"
+  }, {
+    "@value" : "http://vocab.linkeddata.es/ontology/report#warning"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Entry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entry for vocab https://w3id.org/def/wsis/"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Entry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Warning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Warning: A license was not found for vocabulary"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Warning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Warning: title or description missing from vocabulary"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#REPORT1684493452845",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://vocab.linkeddata.es/ontology/report#hasEntry" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS"
+  }, {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsError" : [ {
+    "@value" : "0"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsOK" : [ {
+    "@value" : "5"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#numberVocabsWarning" : [ {
+    "@value" : "5"
+  } ],
+  "http://vocab.linkeddata.es/ontology/report#reportDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "Fri May 19 12:50:52 CEST 2023"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://vocab.linkeddata.es/ontology/report#Report"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Report created on Fri May 19 12:50:52 CEST 2023"
+  } ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Report",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#Warning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#detectedProblem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#entrySubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#hasEntry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#isEntryOfReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsError",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsOK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#numberVocabsWarning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#reportDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://vocab.linkeddata.es/ontology/report#vocabularyStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+} ]
