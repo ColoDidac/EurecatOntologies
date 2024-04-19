@@ -1,0 +1,153 @@
+@prefix : <http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/> .
+
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis> rdf:type owl:Ontology ;
+                                                                            owl:imports <https://seriousgame.sim4nexus.eu/ontology#> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#hasFeature
+:hasFeature rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/cantWorkWith
+:cantWorkWith rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasLocalPhysicalProduction
+:hasLocalPhysicalProduction rdf:type owl:ObjectProperty .
+
+
+###  https://saref.etsi.org/saref#hasMeasurement
+<https://saref.etsi.org/saref#hasMeasurement> rdfs:domain <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SDMVariable
+:SDMVariable rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model
+:model rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp
+:rcp_ssp rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#Commodity
+:Commodity rdf:type owl:Class ;
+           rdfs:subClassOf <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#Emissions
+:Emissions rdf:type owl:Class ;
+           rdfs:subClassOf <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#EnergyResource
+:EnergyResource rdf:type owl:Class ;
+                rdfs:subClassOf <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#Factor
+:Factor rdf:type owl:Class ;
+        rdfs:subClassOf <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#FactorReturn
+:FactorReturn rdf:type owl:Class ;
+              rdfs:subClassOf <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#ImportDemand
+:ImportDemand rdf:type owl:Class ;
+              rdfs:subClassOf <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#LocalHouseholdConsumption
+:LocalHouseholdConsumption rdf:type owl:Class ;
+                           rdfs:subClassOf <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#LocalPhysicalProduction
+:LocalPhysicalProduction rdf:type owl:Class ;
+                         rdfs:subClassOf <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#PhysicalGrossOutput
+:PhysicalGrossOutput rdf:type owl:Class ;
+                     rdfs:subClassOf <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#TotalDemand
+:TotalDemand rdf:type owl:Class ;
+             rdfs:subClassOf <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#ValueAdded
+:ValueAdded rdf:type owl:Class ;
+            rdfs:subClassOf <https://saref.etsi.org/saref#FeatureOfInterest> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ProductionSector
+:ProductionSector rdf:type owl:Class ;
+                  rdfs:subClassOf <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion
+:SubRegion rdf:type owl:Class ;
+           rdfs:subClassOf <https://seriousgame.sim4nexus.eu/ontology#Region> .
+
+
+###  https://saref.etsi.org/saref#Measurement
+<https://saref.etsi.org/saref#Measurement> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://seriousgame.sim4nexus.eu/ontology#regions> ;
+                                                             owl:someValuesFrom :SubRegion
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://seriousgame.sim4nexus.eu/ontology#regions> ;
+                                                             owl:someValuesFrom <https://seriousgame.sim4nexus.eu/ontology#Region>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :model ;
+                                                             owl:someValuesFrom rdfs:Literal
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :rcp_ssp ;
+                                                             owl:someValuesFrom rdfs:Literal
+                                                           ] .
+
+
+###  https://seriousgame.sim4nexus.eu/ontology#EconomicProperty
+<https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :hasFeature ;
+                                                                               owl:someValuesFrom <https://saref.etsi.org/saref#FeatureOfInterest>
+                                                                             ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand
+:ImportDemand rdf:type owl:NamedIndividual ,
+                       <https://saref.etsi.org/saref#FeatureOfInterest> ;
+              <http://purl.org/dc/elements/1.1/description> "" .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
