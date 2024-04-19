@@ -1,0 +1,190 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#regions"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#regions"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#Region"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Commodity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/EnergyResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Factor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/FactorReturn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalHouseholdConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalPhysicalProduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/PhysicalGrossOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ProductionSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SDMVariable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://seriousgame.sim4nexus.eu/ontology#Region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/TotalDemand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ValueAdded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/cantWorkWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasLocalPhysicalProduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref#FeatureOfInterest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref#Measurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/saref#hasMeasurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://saref.etsi.org/saref#FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "https://seriousgame.sim4nexus.eu/ontology#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://seriousgame.sim4nexus.eu/ontology#regions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]

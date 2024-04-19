@@ -1,0 +1,17 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:SubRegion" ; /*classes style*/
+	"NULL" -> ":FeatureOfInterest" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "base:hasFeature" [ label = "owl:onProperty" ];
+	"NULL" -> "base:SubRegion" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "base:model" [ label = "owl:onProperty" ];
+	"NULL" -> "https://seriousgame.sim4nexus.eu/ontology#Region" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "https://seriousgame.sim4nexus.eu/ontology#regions" [ label = "owl:onProperty" ];
+	"NULL" -> "6eafacb4:18ef65482ec:-7ffb" [ label = ":ead" ];
+	"NULL" -> "rdfs:Literal" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "base:rcp_ssp" [ label = "owl:onProperty" ];
+	"http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis" -> "https://seriousgame.sim4nexus.eu/ontology#" [ label = "owl:imports" ];
+	":FeatureOfInterest" -> "owl:Thing" [ label = ":hasMeasurement" ];
+
+}

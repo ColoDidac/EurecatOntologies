@@ -1,0 +1,175 @@
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis> <http://www.w3.org/2002/07/owl#imports> <https://seriousgame.sim4nexus.eu/ontology#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://saref.etsi.org/saref#hasMeasurement
+<https://saref.etsi.org/saref#hasMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://saref.etsi.org/saref#hasMeasurement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/cantWorkWith
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/cantWorkWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasLocalPhysicalProduction
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasLocalPhysicalProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://seriousgame.sim4nexus.eu/ontology#regions
+<https://seriousgame.sim4nexus.eu/ontology#regions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SDMVariable
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SDMVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Commodity
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Commodity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Commodity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+<https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Emissions
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Emissions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/EnergyResource
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/EnergyResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/EnergyResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Factor
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/FactorReturn
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/FactorReturn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/FactorReturn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref#FeatureOfInterest> .
+<https://saref.etsi.org/saref#FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalHouseholdConsumption
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalHouseholdConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalHouseholdConsumption> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalPhysicalProduction
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalPhysicalProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalPhysicalProduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/PhysicalGrossOutput
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/PhysicalGrossOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/PhysicalGrossOutput> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ProductionSector
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ProductionSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ProductionSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://seriousgame.sim4nexus.eu/ontology#Region> .
+<https://seriousgame.sim4nexus.eu/ontology#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/TotalDemand
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/TotalDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/TotalDemand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ValueAdded
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ValueAdded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ValueAdded> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# https://saref.etsi.org/saref#FeatureOfInterest
+# 
+# https://saref.etsi.org/saref#Measurement
+<https://saref.etsi.org/saref#Measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/saref#Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://seriousgame.sim4nexus.eu/ontology#regions> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://saref.etsi.org/saref#Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://seriousgame.sim4nexus.eu/ontology#Region> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://seriousgame.sim4nexus.eu/ontology#regions> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://saref.etsi.org/saref#Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://saref.etsi.org/saref#Measurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://seriousgame.sim4nexus.eu/ontology#EconomicProperty
+<https://seriousgame.sim4nexus.eu/ontology#EconomicProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://saref.etsi.org/saref#FeatureOfInterest> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://seriousgame.sim4nexus.eu/ontology#Region
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref#FeatureOfInterest> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand> <http://purl.org/dc/elements/1.1/description> "" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

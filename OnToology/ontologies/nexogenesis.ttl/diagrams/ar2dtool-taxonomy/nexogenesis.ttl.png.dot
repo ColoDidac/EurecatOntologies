@@ -1,0 +1,19 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:PhysicalGrossOutput" "base:FactorReturn" "base:EnergyResource" "base:LocalPhysicalProduction" "base:LocalHouseholdConsumption" "base:Emissions" "base:Commodity" "base:ValueAdded" "base:Factor" "base:ProductionSector" "base:ImportDemand" "base:SubRegion" "base:TotalDemand" ; /*classes style*/
+	"base:LocalPhysicalProduction" -> ":FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:PhysicalGrossOutput" -> ":FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:FactorReturn" -> ":FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:SubRegion" -> "https://seriousgame.sim4nexus.eu/ontology#Region" [ label = "rdfs:subClassOf" ];
+	"base:Factor" -> "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty" [ label = "rdfs:subClassOf" ];
+	"base:ProductionSector" -> "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty" [ label = "rdfs:subClassOf" ];
+	"base:ImportDemand" -> ":FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:ValueAdded" -> ":FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:Commodity" -> "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty" [ label = "rdfs:subClassOf" ];
+	"base:EnergyResource" -> "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty" [ label = "rdfs:subClassOf" ];
+	"base:Emissions" -> "https://seriousgame.sim4nexus.eu/ontology#EconomicProperty" [ label = "rdfs:subClassOf" ];
+	"base:LocalHouseholdConsumption" -> ":FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+	"base:TotalDemand" -> ":FeatureOfInterest" [ label = "rdfs:subClassOf" ];
+
+}
