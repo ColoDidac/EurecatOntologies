@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis#"
+     xml:base="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:saref="https://saref.etsi.org/saref#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis">
+        <owl:imports rdf:resource="https://seriousgame.sim4nexus.eu/ontology#"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref#hasMeasurement -->
+
+
+    <owl:AnnotationProperty rdf:about="https://saref.etsi.org/saref#hasMeasurement">
+        <rdfs:domain rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/cantWorkWith -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/cantWorkWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasLocalPhysicalProduction -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasLocalPhysicalProduction"/>
+    
+
+
+    <!-- https://seriousgame.sim4nexus.eu/ontology#regions -->
+
+
+    <owl:ObjectProperty rdf:about="https://seriousgame.sim4nexus.eu/ontology#regions"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SDMVariable -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SDMVariable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Commodity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Commodity">
+        <rdfs:subClassOf rdf:resource="https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Emissions -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Emissions">
+        <rdfs:subClassOf rdf:resource="https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/EnergyResource -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/EnergyResource">
+        <rdfs:subClassOf rdf:resource="https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Factor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/Factor">
+        <rdfs:subClassOf rdf:resource="https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/FactorReturn -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/FactorReturn">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalHouseholdConsumption -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalHouseholdConsumption">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalPhysicalProduction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/LocalPhysicalProduction">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/PhysicalGrossOutput -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/PhysicalGrossOutput">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ProductionSector -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ProductionSector">
+        <rdfs:subClassOf rdf:resource="https://seriousgame.sim4nexus.eu/ontology#EconomicProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion">
+        <rdfs:subClassOf rdf:resource="https://seriousgame.sim4nexus.eu/ontology#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/TotalDemand -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/TotalDemand">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ValueAdded -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ValueAdded">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref#FeatureOfInterest -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref#Measurement -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref#Measurement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://seriousgame.sim4nexus.eu/ontology#regions"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/SubRegion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://seriousgame.sim4nexus.eu/ontology#regions"/>
+                <owl:someValuesFrom rdf:resource="https://seriousgame.sim4nexus.eu/ontology#Region"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/model"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/rcp_ssp"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://seriousgame.sim4nexus.eu/ontology#EconomicProperty -->
+
+
+    <owl:Class rdf:about="https://seriousgame.sim4nexus.eu/ontology#EconomicProperty">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/hasFeature"/>
+                <owl:someValuesFrom rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://seriousgame.sim4nexus.eu/ontology#Region -->
+
+
+    <owl:Class rdf:about="https://seriousgame.sim4nexus.eu/ontology#Region"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref#FeatureOfInterest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/didac.colominas/ontologies/2024/3/nexogenesis/ImportDemand">
+        <dc:description></dc:description>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
