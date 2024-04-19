@@ -3,23 +3,25 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+<http://vocab.linkeddata.es/ontology/report#REPORT1713529671859>
+        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
+        rdfs:label  "Report created on Fri Apr 19 14:27:51 CEST 2024" ;
+        <http://vocab.linkeddata.es/ontology/report#hasEntry>
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HTTPSW3IDORGDEFPATHOCERT> , <http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859REPORTTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HTTPSW3IDORGDEFWSIS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HOMEAHMADREPOSPREVCLONE-PUU8ONTOLOGIESNEXOGENESISTTL> ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+                "1" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+                "3" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+                "4" ;
+        <http://vocab.linkeddata.es/ontology/report#reportDate>
+                "Fri Apr 19 14:27:51 CEST 2024"^^xsd:dateTime .
+
 <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
         a       owl:DatatypeProperty .
 
 <http://vocab.linkeddata.es/ontology/report#entrySubject>
         a       rdf:Property .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-s1Ey/WSIS/wsis.owl" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-S1EYWSISWSIS.OWL> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#warning" .
 
 <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
         a       rdf:Property .
@@ -29,31 +31,23 @@ rdfs:label  a   owl:DatatypeProperty .
 <http://vocab.linkeddata.es/ontology/report#reportDate>
         a       owl:DatatypeProperty .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23>
-        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#https:/_SERIOUSGAME.SIM4NEXUS.EU_ONTOLOGY%23> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
 <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
         a       rdf:Property .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT>
+<http://vocab.linkeddata.es/ontology/report#Error>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859REPORTTTL>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab https://w3id.org/def/pathocert/" ;
+        rdfs:label  "Entry for vocab report.ttl" ;
         <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_PATHOCERT_> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT.TTL> ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1713529671859> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+                "http://vocab.linkeddata.es/ontology/report#error" .
 
 <http://vocab.linkeddata.es/ontology/report#Report>
         a       owl:Class .
@@ -62,28 +56,56 @@ rdfs:label  a   owl:DatatypeProperty .
         a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
         rdfs:label  "Warning: A license was not found for vocabulary" .
 
-<http://vocab.linkeddata.es/ontology/report#REPORT1684493452845>
-        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
-        rdfs:label  "Report created on Fri May 19 12:50:52 CEST 2023" ;
-        <http://vocab.linkeddata.es/ontology/report#hasEntry>
-                <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HOMEAHMADREPOSPREVCLONE-S1EYWSISWSISOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFPATHOCERT> , <http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE> ;
-        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
-                "0" ;
-        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
-                "5" ;
-        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
-                "5" ;
-        <http://vocab.linkeddata.es/ontology/report#reportDate>
-                "Fri May 19 12:50:52 CEST 2023"^^xsd:dateTime .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_SERIOUSGAME.SIM4NEXUS.EU_ONTOLOGY%23> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1713529671859> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
 
 <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC>
         a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
         rdfs:label  "Warning: title or description missing from vocabulary" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%2523>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HTTPSW3IDORGDEFPATHOCERT>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab https://w3id.org/def/pathocert/" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_PATHOCERT_> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1713529671859> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#GENERICERROR>
+        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
+        rdfs:label  "Error: the vocabulary could not be loaded or processed" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HOMEAHMADREPOSPREVCLONE-PUU8ONTOLOGIESNEXOGENESISTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-Puu8/ontologies/nexogenesis.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-PUU8ONTOLOGIESNEXOGENESIS.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1713529671859> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HTTPSSERIOUSGAMESIM4NEXUSEUONTOLOGY%2523>
         rdfs:label  "Entry for vocab https://seriousgame.sim4nexus.eu/ontology#" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFWSIS>
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1713529671859HTTPSW3IDORGDEFWSIS>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab https://w3id.org/def/wsis/" ;
         <http://vocab.linkeddata.es/ontology/report#detectedProblem>
@@ -91,24 +113,9 @@ rdfs:label  a   owl:DatatypeProperty .
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_WSIS_> ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1713529671859> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1684493452845HTTPSW3IDORGDEFISA-GLOMICAVE>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab https://w3id.org/def/isa-glomicave/" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_ISA-GLOMICAVE_> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1684493452845> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
-        a       owl:DatatypeProperty .
 
 <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
         a       owl:DatatypeProperty .
